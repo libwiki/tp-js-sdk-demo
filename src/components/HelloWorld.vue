@@ -87,7 +87,7 @@
           rows="2"
           v-model="getWalletsParams"
         ></textarea>
-        <br />
+        <br/>
         <button @click="getWallets">getWallets</button>
         <div class="getWalletsLog"></div>
       </div>
@@ -102,7 +102,7 @@
           rows="2"
           v-model="appidParams"
         ></textarea>
-        <br />
+        <br/>
         <button @click="sign">sign</button>
         <div class="signLog"></div>
       </div>
@@ -117,7 +117,7 @@
           rows="2"
           v-model="eosAuthSignParams"
         ></textarea>
-        <br />
+        <br/>
         <button @click="eosAuthSign">eosAuthSign</button>
         <div class="eosAuthSignLog"></div>
       </div>
@@ -162,12 +162,12 @@
       <h3>1.15 tp.startChat</h3>
       <div class="demo-content">
         blockChainId:
-        <input type="text" v-model="chatblockChainId" />
-        <br />account:
-        <input type="text" v-model="chataccount" />
-        <br />sessionType:
-        <input type="text" v-model="chatsessionType" />
-        <br />
+        <input type="text" v-model="chatblockChainId"/>
+        <br/>account:
+        <input type="text" v-model="chataccount"/>
+        <br/>sessionType:
+        <input type="text" v-model="chatsessionType"/>
+        <br/>
         <button @click="startChat">startChat</button>
       </div>
     </div>
@@ -176,8 +176,8 @@
       <h3>1.16 tp.saveImage</h3>
       <div class="demo-content">
         imagerURL:
-        <input type="text" v-model="imageURL" />
-        <br />
+        <input type="text" v-model="imageURL"/>
+        <br/>
         <button @click="saveImage">saveImage</button>
       </div>
     </div>
@@ -185,7 +185,7 @@
       <h3>1.17 tp.rollHorizontal</h3>
       <div class="demo-content">
         <button @click="rollHorizontal(true)">true</button>
-        <br />
+        <br/>
         <button @click="rollHorizontal(false)">false</button>
       </div>
     </div>
@@ -194,7 +194,7 @@
       <h3>1.18 tp.popGestureRecognizerEnable</h3>
       <div class="demo-content">
         <button @click="popGestureRecognizerEnable(true)">true</button>
-        <br />
+        <br/>
         <button @click="popGestureRecognizerEnable(false)">false</button>
       </div>
     </div>
@@ -203,7 +203,7 @@
       <h3>1.19 tp.forwardNavigationGesturesEnable</h3>
       <div class="demo-content">
         <button @click="forwardNavigationGesturesEnable(true)">true</button>
-        <br />
+        <br/>
         <button @click="forwardNavigationGesturesEnable(false)">false</button>
       </div>
     </div>
@@ -233,35 +233,35 @@
       <div class="demo-content">
         <p>
           from：
-          <input v-model="fromEos" type="text" />
+          <input v-model="fromEos" type="text"/>
         </p>
         <p>
           to:
-          <input v-model="toEos" type="text" />
+          <input v-model="toEos" type="text"/>
         </p>
         <p>
           amount:
-          <input v-model="amountEos" type="text" />
+          <input v-model="amountEos" type="text"/>
         </p>
         <p>
           Token:
-          <input v-model="tokenNameEos" type="text" />
+          <input v-model="tokenNameEos" type="text"/>
         </p>
         <p>
           Contract:
-          <input v-model="contractEos" type="text" />
+          <input v-model="contractEos" type="text"/>
         </p>
         <p>
           precision:
-          <input type="text" v-model="precisionEos" />
+          <input type="text" v-model="precisionEos"/>
         </p>
         <p>
           memo:
-          <input v-model="memoEos" type="text" />
+          <input v-model="memoEos" type="text"/>
         </p>
         <p>
           address:
-          <input v-model="addressEos" type="text" />
+          <input v-model="addressEos" type="text"/>
         </p>
         <button @click="eosTokenTransfer">eosTokenTransfer</button>
         <div class="eosTokenTransferLog"></div>
@@ -278,7 +278,7 @@
           rows="10"
           v-model="actionsEos"
         ></textarea>
-        <br />
+        <br/>
         <button @click="pushEosAction">pushEosAction</button>
         <div class="pushEosActionLog"></div>
       </div>
@@ -293,7 +293,7 @@
           rows="5"
           v-model="eosTableRows"
         ></textarea>
-        <br />
+        <br/>
         <button @click="getTableRows">getTableRows</button>
         <div class="getTableRowsLog"></div>
       </div>
@@ -316,7 +316,7 @@
           rows="5"
           v-model="eosTransactionParams"
         ></textarea>
-        <br />
+        <br/>
         <button @click="getEosTransactionRecord">
           getEosTransactionRecord
         </button>
@@ -335,31 +335,31 @@
       <div class="demo-content">
         <p>
           from：
-          <input v-model="fromMoac" type="text" />
+          <input v-model="fromMoac" type="text"/>
         </p>
         <p>
           to:
-          <input v-model="toMoac" type="text" />
+          <input v-model="toMoac" type="text"/>
         </p>
         <p>
           amount:
-          <input v-model="amountMoac" type="text" />
+          <input v-model="amountMoac" type="text"/>
         </p>
         <p>
           tokenName:
-          <input v-model="tokenNameMoac" type="text" />
+          <input v-model="tokenNameMoac" type="text"/>
         </p>
         <p>
           Contract:
-          <input v-model="contractMoac" type="text" />
+          <input v-model="contractMoac" type="text"/>
         </p>
         <p>
           decimal:
-          <input type="text" v-model="decimalMoac" />
+          <input type="text" v-model="decimalMoac"/>
         </p>
         <p>
           gasLimit:
-          <input v-model="gasLimitMoac" type="text" />
+          <input v-model="gasLimitMoac" type="text"/>
         </p>
 
         <button @click="moacTokenTransfer">moacTokenTransfer</button>
@@ -395,35 +395,35 @@
       <div class="demo-content">
         <p>
           from：
-          <input v-model="fromEnu" type="text" />
+          <input v-model="fromEnu" type="text"/>
         </p>
         <p>
           to:
-          <input v-model="toEnu" type="text" />
+          <input v-model="toEnu" type="text"/>
         </p>
         <p>
           amount:
-          <input v-model="amountEnu" type="text" />
+          <input v-model="amountEnu" type="text"/>
         </p>
         <p>
           Token:
-          <input v-model="tokenNameEnu" type="text" />
+          <input v-model="tokenNameEnu" type="text"/>
         </p>
         <p>
           Contract:
-          <input v-model="contractEnu" type="text" />
+          <input v-model="contractEnu" type="text"/>
         </p>
         <p>
           precision:
-          <input type="text" v-model="precisionEnu" />
+          <input type="text" v-model="precisionEnu"/>
         </p>
         <p>
           memo:
-          <input v-model="memoEnu" type="text" />
+          <input v-model="memoEnu" type="text"/>
         </p>
         <p>
           address:
-          <input v-model="addressEnu" type="text" />
+          <input v-model="addressEnu" type="text"/>
         </p>
         <button @click="enuTokenTransfer">enuTokenTransfer</button>
         <div class="enuTokenTransferLog"></div>
@@ -440,7 +440,7 @@
           rows="10"
           v-model="actionsEnu"
         ></textarea>
-        <br />
+        <br/>
         <button @click="pushEnuAction">pushEnuAction</button>
         <div class="pushEnuActionLog"></div>
       </div>
@@ -455,7 +455,7 @@
           rows="5"
           v-model="enuTableRows"
         ></textarea>
-        <br />
+        <br/>
         <button @click="getEnuTableRows">getEnuTableRows</button>
         <div class="getEnuTableRowsLog"></div>
       </div>
@@ -478,7 +478,7 @@
           rows="5"
           v-model="enuTransactionParams"
         ></textarea>
-        <br />
+        <br/>
         <button @click="getEnuTransactionRecord">
           getEnuTransactionRecord
         </button>
@@ -502,7 +502,7 @@
           rows="5"
           v-model="cosmosParams"
         ></textarea>
-        <br />
+        <br/>
         <button @click="signCosmosTransaction">signCosmosTransaction</button>
         <div class="signCosmosTransactionLog"></div>
       </div>
@@ -511,7 +511,7 @@
       <h3>5.2 tp.cosmosArbitrarySignature</h3>
       <div class="demo-content">
         cosmos 账号：
-        <input type="text" v-model="cosmosAddress" />
+        <input type="text" v-model="cosmosAddress"/>
         <textarea
           style="width: 100%"
           id="cosmos-actions"
@@ -519,7 +519,7 @@
           rows="5"
           v-model="cosmosParams"
         ></textarea>
-        <br />
+        <br/>
         <button @click="cosmosArbitrarySignature">
           cosmosArbitrarySignature
         </button>
@@ -537,7 +537,7 @@
           rows="5"
           v-model="jingtumParams"
         ></textarea>
-        <br />
+        <br/>
         <button @click="signJingtumTransaction">signJingtumTransaction</button>
         <div class="signJingtumTransactionLog"></div>
       </div>
@@ -546,7 +546,7 @@
 </template>
 
 <script>
-import tp from "../../tp-js-sdk-dev/tp-js-sdk/index";
+import tp from "tp-js-sdk";
 import $ from "jquery";
 
 export default {
@@ -699,7 +699,7 @@ export default {
       });
     },
     fullScreen(num) {
-      tp.fullScreen({ fullScreen: +num });
+      tp.fullScreen({fullScreen: +num});
     },
     gotoBack() {
       this.$router.push("/back");
@@ -708,7 +708,7 @@ export default {
       tp.close();
     },
     setMenubar(flag) {
-      tp.setMenubar({ flag: flag });
+      tp.setMenubar({flag: flag});
     },
     eosAuthSign() {
       var params = JSON.parse(this.eosAuthSignParams);
@@ -859,12 +859,12 @@ export default {
       });
     },
     rollHorizontal(isTrue) {
-      var params = { horizontal: isTrue };
+      var params = {horizontal: isTrue};
 
       tp.rollHorizontal(params);
     },
     saveImage() {
-      var params = { url: this.imageURL };
+      var params = {url: this.imageURL};
       tp.saveImage(params);
     },
     getEnuBalance() {
@@ -905,10 +905,10 @@ export default {
       });
     },
     popGestureRecognizerEnable(isEnable) {
-      tp.popGestureRecognizerEnable({ enable: isEnable });
+      tp.popGestureRecognizerEnable({enable: isEnable});
     },
     forwardNavigationGesturesEnable(isEnable) {
-      tp.forwardNavigationGesturesEnable({ enable: isEnable });
+      tp.forwardNavigationGesturesEnable({enable: isEnable});
     },
     startChat() {
       var params = {
@@ -965,17 +965,21 @@ h1,
 h2 {
   font-weight: normal;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   display: inline-block;
   margin: 0 10px;
 }
+
 a {
   color: #42b983;
 }
+
 button {
   padding: 4px 10px;
   -webkit-appearance: none;
@@ -984,6 +988,7 @@ button {
   background: #fff;
   line-height: 1.5;
 }
+
 div,
 p {
   word-break: break-all;
